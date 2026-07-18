@@ -43,6 +43,9 @@ jobs:
         with:
           runtime: node@24
           cache: true
+      - name: Configure npm
+        run: |
+          npm config set registry https://registry.npmjs.org/
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
