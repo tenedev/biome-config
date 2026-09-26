@@ -13,7 +13,7 @@ importers:
     devDependencies:
       '@tenedev/prettier-config':
         specifier: ^1.3.0
-        version: 1.3.0(prettier@3.9.6)
+        version: 1.3.0(prettier@3.9.9)
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -21,8 +21,8 @@ importers:
         specifier: ^17.2.0
         version: 17.2.0
       prettier:
-        specifier: ^3.9.6
-        version: 3.9.6
+        specifier: ^3.9.9
+        version: 3.9.9
 
 packages:
   '@biomejs/biome@2.5.5':
@@ -191,10 +191,10 @@ packages:
       prettier:
         optional: true
 
-  prettier@3.9.6:
+  prettier@3.9.9:
     resolution:
       {
-        integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==,
+        integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==,
       }
     engines: { node: '>=14' }
     hasBin: true
@@ -292,10 +292,10 @@ snapshots:
   '@biomejs/cli-win32-x64@2.5.5':
     optional: true
 
-  '@tenedev/prettier-config@1.3.0(prettier@3.9.6)':
+  '@tenedev/prettier-config@1.3.0(prettier@3.9.9)':
     dependencies:
-      prettier: 3.9.6
-      prettier-plugin-packagejson: 3.0.2(prettier@3.9.6)
+      prettier: 3.9.9
+      prettier-plugin-packagejson: 3.0.2(prettier@3.9.9)
       sort-package-keys: 2.0.0
 
   detect-indent@7.0.2: {}
@@ -322,13 +322,13 @@ snapshots:
 
   picomatch@4.0.5: {}
 
-  prettier-plugin-packagejson@3.0.2(prettier@3.9.6):
+  prettier-plugin-packagejson@3.0.2(prettier@3.9.9):
     dependencies:
       sort-package-json: 3.6.1
     optionalDependencies:
-      prettier: 3.9.6
+      prettier: 3.9.9
 
-  prettier@3.9.6: {}
+  prettier@3.9.9: {}
 
   semver@7.8.1: {}
 
