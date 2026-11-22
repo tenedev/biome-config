@@ -3,6 +3,10 @@
 [![npm version](https://img.shields.io/npm/v/@tenedev/biome-config.svg?logo=npm&color=brightgreen)](https://www.npmjs.com/package/@tenedev/biome-config)
 [![Downloads](https://img.shields.io/npm/dt/@tenedev/biome-config?logo=npm)](https://www.npmjs.com/package/@tenedev/biome-config)
 
+> [!CAUTION]
+> This package is deprecated.
+> Use [`@pegora/biome-config`](https://github.com/pegoraio/biome-config) instead.
+
 ## Installation
 
 ```bash
